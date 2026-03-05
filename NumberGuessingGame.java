@@ -10,7 +10,7 @@ public class NumberGuessingGame {
         Random random = new Random();
 
         int secretNumber = random.nextInt(100) + 1; // 1 to 100
-        int userGuess = 0;
+        int userGuess = 0; 
         int attempts = 0;
 
         System.out.println("Welcome to the Number Guessing Game!");
